@@ -1,0 +1,12 @@
+1. python -m venv myenv
+2. powershell -> myenv\Scripts\Activate.ps1
+2. linux -> source myenv/bin/activate
+3.- deactivate
+4.- para instalar una versión de python específica : python3.8 -m venv myenv
+5.- pip freeze > requirements.txt
+5.- pip install -r requirements.txt -> instalar dependencias del proyecto
+
+solución problema ejecución de scrips:
+Set-ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy Unrestricted -> y / s
+ 
